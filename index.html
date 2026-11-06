@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>מוריד שירים מיוטיוב</title>
+<style>
+  :root { --red:#c62828; --ink:#1d1d1f; --mut:#6b6b6b; --bg:#faf8f5; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:Arial,"Segoe UI",sans-serif; background:var(--bg); color:var(--ink); line-height:1.6; }
+  .wrap { max-width:640px; margin:0 auto; padding:32px 20px 60px; }
+  .logo { width:72px; height:72px; border-radius:18px; background:var(--red); display:flex; align-items:center; justify-content:center; margin:0 auto 16px; }
+  .logo:after { content:""; border-style:solid; border-width:14px 0 14px 24px; border-color:transparent transparent transparent #fff; margin-right:-6px; }
+  h1 { text-align:center; font-size:30px; margin:0 0 8px; }
+  .sub { text-align:center; color:var(--mut); margin:0 0 28px; font-size:17px; }
+  .btn { display:block; text-align:center; background:var(--red); color:#fff; font-size:20px; font-weight:bold; padding:16px; border-radius:14px; text-decoration:none; }
+  .btn:hover { filter:brightness(1.08); }
+  .card { background:#fff; border-radius:16px; padding:20px 22px; margin-top:20px; box-shadow:0 1px 4px rgba(0,0,0,.07); }
+  .card h2 { font-size:18px; margin:0 0 10px; }
+  ol { padding-right:22px; margin:0; }
+  li { margin-bottom:8px; }
+  code { background:#f0ece6; padding:1px 6px; border-radius:5px; direction:ltr; unicode-bidi:embed; }
+  .note { color:var(--mut); font-size:14px; margin-top:6px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="logo"></div>
+  <h1>מוריד שירים מיוטיוב</h1>
+  <p class="sub">מחפשים שיר ביוטיוב ומורידים אותו למחשב או לדרייב. אפשר גם להתקשר ולהוריד מהטלפון.</p>
+
+  <a class="btn" href="song-downloader.zip" download>הורדת התוסף</a>
+
+  <div class="card">
+    <h2>התקנה, שלוש דקות</h2>
+    <ol>
+      <li>מחלצים את הקובץ שהורד לתיקייה (לחיצה ימנית, "חלץ הכל").</li>
+      <li>פותחים בכרום את הכתובת <code>chrome://extensions</code> ומפעילים למעלה את "מצב מפתח".</li>
+      <li>לוחצים "טען לא ארוז" ובוחרים את התיקייה שחולצה. מקבעים את התוסף בסרגל לנוחות.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>הרשמה להורדה מהטלפון</h2>
+    <ol>
+      <li>לוחצים על התוסף ורושמים בו את מספר הטלפון שלכם. זה הכול, ההרשמה נעשית אוטומטית.</li>
+      <li>מתקשרים לקו <b>077-2271152</b> ובוחרים בשלוחה <b>70</b>.</li>
+      <li>אומרים את שם השיר, בוחרים תוצאה ולאן להוריד. השיר יורד לבד.</li>
+    </ol>
+    <p class="note">ההורדה מהטלפון עובדת כשהכרום פתוח במחשב. אם הוא סגור, ההזמנה מחכה עד שיידלק.</p>
+  </div>
+
+  <div class="card">
+    <h2>הורדה מדף ביוטיוב או מאתר אחר</h2>
+    <p style="margin:0">פותחים את התוסף בדף שבו יש סרטון, ולוחצים "הורד את הסרטון שבדף". אפשר גם לחפש שיר בתוך התוסף ולבחור לאן להוריד.</p>
+  </div>
+</div>
+</body>
+</html>
